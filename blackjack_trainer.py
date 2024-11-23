@@ -1,6 +1,5 @@
 import random
 
-# Blackjack strategy table (fixed for doubling on 11)
 STRATEGY_TABLE = {
     "hard": {
         8: {"dealer": range(2, 12), "action": "h", "reason": "You need to build a stronger hand to compete with the dealer."},
